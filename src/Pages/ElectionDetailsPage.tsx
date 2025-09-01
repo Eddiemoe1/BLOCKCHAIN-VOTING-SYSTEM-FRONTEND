@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
-import { Button } from '../components/ui/button';
-import { Badge } from '../components/ui/badge';
-import { Progress } from '../components/ui/progress';
+import { Card, CardContent, CardHeader, CardTitle } from '../Components/ui/card';
+import { Button } from '../Components/ui/button';
+import { Badge } from '../Components/ui/badge';
+import { Progress } from '../Components/ui/progress';
 import { toast } from '../hooks/use-toast';
-import { mockElections, mockVoteForCandidate, Election } from '../mock';
-import { useWallet } from '../contexts/WalletContext';
+import { mockElections, mockVoteForCandidate, Election } from '../MockData';
+import { useWallet } from '../Contexts/WalletContext';
 import {
   ArrowLeft,
   Calendar,

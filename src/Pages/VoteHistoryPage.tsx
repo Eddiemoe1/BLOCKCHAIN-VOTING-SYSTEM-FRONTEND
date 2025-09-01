@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
-import { Button } from '../components/ui/button';
-import { Badge } from '../components/ui/badge';
-import { Input } from '../components/ui/input';
-import { mockVoteHistory, mockElections, VoteHistory } from '../mock';
-import { useWallet } from '../contexts/WalletContext';
+import { Card, CardContent, CardHeader, CardTitle } from '../Components/ui/card';
+import { Button } from '../Components/ui/button';
+import { Badge } from '../Components/ui/badge';
+import { Input } from '../Components/ui/input';
+import { mockVoteHistory, mockElections, VoteHistory } from '../MockData';
+import { useWallet } from '../Contexts/WalletContext';
 import {
   History,
   Search,
