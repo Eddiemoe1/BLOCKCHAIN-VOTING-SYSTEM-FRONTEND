@@ -25,7 +25,26 @@ function App() {
               <Route path="/analytics" element={<AnalyticsPage />} />
               <Route path="/history" element={<VoteHistoryPage />} />
               <Route path="/verification" element={<VerificationPage />} />
-              <Route path="/election-card" element={<ElectionCard />} />
+              <Route
+                path="/election-card"
+                element={
+                  <ElectionCard
+                    election={{
+                      id: '',
+                      title: '',
+                      description: '',
+                      startDate: new Date(),
+                      endDate: new Date(),
+                      candidates: [],
+                      status: 'upcoming',
+                      totalVotes: 0,
+                      eligibleVoters: 0,
+                      blockchainNetwork: '',
+                      contractAddress: '',
+                    }}
+                  />
+                }
+              />
 
             </Routes>
           </main>

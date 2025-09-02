@@ -1,4 +1,3 @@
-// Mock data for blockchain voting system
 
 // Type definitions
 export interface Candidate {

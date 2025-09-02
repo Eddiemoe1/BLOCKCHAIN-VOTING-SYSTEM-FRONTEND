@@ -4,18 +4,17 @@ import { Button } from '../Components/ui/button';
 import { Badge } from '../Components/ui/badge';
 import { Input } from '../Components/ui/input';
 import ElectionCard from '../Components/ElectionCard';
-import { mockElections, mockNetworkStats, mockActivityFeed, Election } from '../MockData';
+import type { Election } from '../MockData'; 
+import { mockElections, mockNetworkStats, mockActivityFeed } from '../MockData'; 
 import { useWallet } from '../Contexts/WalletContext';
 import {
   Search,
-  Filter,
   TrendingUp,
   Users,
   Vote,
   Activity,
   BarChart3,
   Shield,
-  Bell,
   Zap,
   Wallet
 } from 'lucide-react';

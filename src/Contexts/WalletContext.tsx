@@ -1,5 +1,6 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { mockWalletData, WalletData } from '../MockData';
+import React, { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
+import { mockWalletData } from '../MockData';
+import type { WalletData } from '../MockData';
 
 // Define the context type
 interface WalletContextType {

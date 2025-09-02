@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from './ui/button';
-import { useWallet } from '../contexts/WalletContext';
+import { useWallet } from '../Contexts/WalletContext';
 import { 
   Wallet,
   Vote,
@@ -11,7 +11,7 @@ import {
   Shield,
   Menu,
   X,
-  LucideIcon
+  type LucideIcon
 } from 'lucide-react';
 import { useState } from 'react';
 
