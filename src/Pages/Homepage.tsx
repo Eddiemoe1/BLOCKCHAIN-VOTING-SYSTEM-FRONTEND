@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 
 const HomePage = () => {
-  const [elections, setElections] = useState<Election[]>(mockElections);
+  const [elections] = useState<Election[]>(mockElections);
   const [filteredElections, setFilteredElections] = useState<Election[]>(mockElections);
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState<'all' | 'active' | 'upcoming' | 'completed'>('all');
