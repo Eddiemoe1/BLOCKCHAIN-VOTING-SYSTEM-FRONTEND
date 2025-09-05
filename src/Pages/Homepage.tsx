@@ -25,7 +25,7 @@ const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState<'all' | 'active' | 'upcoming' | 'completed'>('all');
   const { wallet } = useWallet();
-  
+
 
   useEffect(() => {
     let filtered = elections;
@@ -137,6 +137,7 @@ const HomePage = () => {
             </div>
           </CardContent>
         </Card>
+        
 
         <Card className="bg-slate-800/50 border-slate-700">
           <CardContent className="p-6">
