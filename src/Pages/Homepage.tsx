@@ -7,6 +7,7 @@ import ElectionCard from '../Components/ElectionCard';
 import type { Election } from '../MockData'; 
 import { mockElections, mockNetworkStats, mockActivityFeed } from '../MockData'; 
 import { useWallet } from '../Contexts/WalletContext';
+import './homepage.css';
 import {
   Search,
   TrendingUp,
