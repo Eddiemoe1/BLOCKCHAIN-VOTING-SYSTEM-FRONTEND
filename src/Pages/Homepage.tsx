@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '../Components/ui/card';
 import { Button } from '../Components/ui/button';
-import { Badge } from '../Components/ui/badge';
 import { Input } from '../Components/ui/input';
 import ElectionCard from '../Components/ElectionCard';
 import type { Election } from '../MockData'; 
@@ -26,6 +25,7 @@ const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState<'all' | 'active' | 'upcoming' | 'completed'>('all');
   const { wallet } = useWallet();
+  
 
   useEffect(() => {
     let filtered = elections;
