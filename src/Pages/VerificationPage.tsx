@@ -23,6 +23,8 @@ import {
   Zap
 } from 'lucide-react';
 
+
+
 interface VerificationResult {
   status: 'verified' | 'not_found' | 'election_verified' | 'election_not_found';
   vote?: VoteHistory;
