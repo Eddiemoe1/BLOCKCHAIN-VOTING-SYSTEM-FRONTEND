@@ -6,7 +6,9 @@ import { Label } from '../Components/ui/label';
 import { Badge } from '../Components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../Components/ui/tabs';
 import { toast } from '../hooks/use-toast';
-import { mockVoteHistory, mockElections, VoteHistory, Election } from '../MockData';
+import { mockVoteHistory, mockElections } from '../MockData';
+import type { Election } from '../MockData';
+import type { VoteHistory } from '../MockData';
 import {
   Shield,
   Search,

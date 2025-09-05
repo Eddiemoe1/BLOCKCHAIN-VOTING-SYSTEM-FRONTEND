@@ -249,6 +249,17 @@ export const mockActivityFeed: ActivityFeedItem[] = [
   }
 ];
 
+export const electionData: ElectionData = {
+  title: "New Election",
+  description: "Description here",
+  startDate: new Date(),
+  endDate: new Date(),
+  eligibleVoters: 1000,
+  blockchainNetwork: "Ethereum",
+  candidates: []
+};
+
+
 // Helper functions for mock data manipulation
 export const mockVoteForCandidate = (electionId: string, candidateId: string): VoteResult => {
   const election = mockElections.find(e => e.id === electionId);

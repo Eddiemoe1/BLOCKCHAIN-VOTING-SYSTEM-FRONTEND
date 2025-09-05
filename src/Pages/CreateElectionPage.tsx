@@ -8,7 +8,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Label } from '../Components/ui/label';
 import { Badge } from '../Components/ui/badge';
 import { toast } from '../hooks/use-toast';
-import { mockCreateElection, ElectionData } from '../MockData';
+import { mockCreateElection } from '../MockData';
+import type { ElectionData } from '../MockData';
 import { useWallet } from '../Contexts/WalletContext';
 import {
   Plus,

@@ -3,7 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '../Components/ui/card'
 import { Button } from '../Components/ui/button';
 import { Badge } from '../Components/ui/badge';
 import { Input } from '../Components/ui/input';
-import { mockVoteHistory, mockElections, VoteHistory } from '../MockData';
+import { mockVoteHistory, mockElections } from '../MockData';
+import type { VoteHistory } from '../MockData';
 import { useWallet } from '../Contexts/WalletContext';
 import {
   History,

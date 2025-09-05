@@ -5,7 +5,8 @@ import { Button } from '../Components/ui/button';
 import { Badge } from '../Components/ui/badge';
 import { Progress } from '../Components/ui/progress';
 import { toast } from '../hooks/use-toast';
-import { mockElections, mockVoteForCandidate, Election } from '../MockData';
+import { mockElections, mockVoteForCandidate } from '../MockData';
+import type {Election} from '../MockData'
 import { useWallet } from '../Contexts/WalletContext';
 import {
   ArrowLeft,
