@@ -215,6 +215,7 @@ body {
   justify-content: space-between;
 }
 
+
 .stat-label {
   font-size: 0.95rem;
   color: var(--text-muted);
