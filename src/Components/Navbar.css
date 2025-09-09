@@ -57,7 +57,7 @@
   height: 4rem;
     gap: 4rem;
     column-span: all;
-
+    row-gap: 0.5rem;
 }
 
 /* Logo */
