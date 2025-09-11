@@ -172,6 +172,41 @@ export const mockElections: Election[] = [
         policies: ["Parental Rights", "Budget Management", "Safety First"]
       }
     ]
+  },
+
+  {
+    id: "3",
+    title: "School Board Election",
+    description: "Choose representatives for the school board",
+    startDate: new Date("2024-09-01"),
+    endDate: new Date("2024-09-30"),
+    status: "completed",
+    totalVotes: 12750,
+    eligibleVoters: 18000,
+    blockchainNetwork: "Ethereum",
+    contractAddress: "0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed",
+    candidates: [
+      {
+        id: "c5",
+        name: "Jennifer Davis",
+        party: "Education First",
+        votes: 7650,
+        percentage: 60.0,
+        profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+        bio: "Former teacher with 20 years of education experience.",
+        policies: ["STEM Education", "Teacher Support", "Student Wellness"]
+      },
+      {
+        id: "c6",
+        name: "Michael Brown",
+        party: "Parents Coalition",
+        votes: 5100,
+        percentage: 40.0,
+        profileImage: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=face",
+        bio: "Parent advocate and former school board member.",
+        policies: ["Parental Rights", "Budget Management", "Safety First"]
+      }
+    ]
   }
 ];
 
@@ -247,6 +282,8 @@ export const mockActivityFeed: ActivityFeedItem[] = [
     timestamp: new Date("2024-11-05T12:30:00"),
     icon: "Shield"
   }
+
+  
 ];
 
 export const electionData: ElectionData = {

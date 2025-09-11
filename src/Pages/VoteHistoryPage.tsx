@@ -6,6 +6,7 @@ import { Input } from '../Components/ui/input';
 import { mockVoteHistory, mockElections } from '../MockData';
 import type { VoteHistory } from '../MockData';
 import { useWallet } from '../Contexts/WalletContext';
+import './VoteHistory.css';
 import {
   History,
   Search,
