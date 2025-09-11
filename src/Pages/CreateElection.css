@@ -1,6 +1,3 @@
-/* CreateElectionPage.css */
-
-/* Container and layout styles */
 .space-y-8 > * + * {
   margin-top: 2rem;
 }
