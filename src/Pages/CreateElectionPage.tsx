@@ -11,6 +11,7 @@ import { toast } from '../hooks/use-toast';
 import { mockCreateElection } from '../MockData';
 import type { ElectionData } from '../MockData';
 import { useWallet } from '../Contexts/WalletContext';
+import './CreateElection.css';
 import {
   Plus,
   Trash2,
