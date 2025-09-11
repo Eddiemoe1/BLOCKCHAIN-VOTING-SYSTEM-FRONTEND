@@ -5,6 +5,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Progress } from '../Components/ui/progress';
 import { Badge } from '../Components/ui/badge';
 import { mockElections, mockNetworkStats } from '../MockData';
+import './AnalyticsPage.css';
 import {
   BarChart3,
   TrendingUp,
