@@ -8,6 +8,7 @@ import { toast } from '../hooks/use-toast';
 import { mockElections, mockVoteForCandidate } from '../MockData';
 import type {Election} from '../MockData'
 import { useWallet } from '../Contexts/WalletContext';
+import './ElectionDetails.css';
 import {
   ArrowLeft,
   Calendar,
